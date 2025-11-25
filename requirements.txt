@@ -1,0 +1,8 @@
+streamlit
+pandas
+sqlalchemy
+deep-translator
+requests
+SpeechRecognition
+pyaudio
+plotly
