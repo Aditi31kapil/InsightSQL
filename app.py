@@ -44,7 +44,7 @@ with st.sidebar:
             st.success("✅ DB Loaded! (Schema auto-extracted)")
 
     st.header("2. Input Method")
-    input_method = st.radio("Choose Input:", ["Text Input", "Voice"])
+    input_method = st.radio("Choose Input:", ["Text Input", "Voice (Microphone)"])
     
     # --- SIDEBAR TABLE VIEWER ---
     # Check existence on disk so it persists even if file_uploader state resets slightly
